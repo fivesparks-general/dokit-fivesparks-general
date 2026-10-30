@@ -1,7 +1,8 @@
 +++
 kind = "step"
 created = 2026-10-30T18:47:14Z
-state = "active"
+state = "closed"
+resolution = "done"
 priority = "normal"
 part_of = "5q53"
 +++
