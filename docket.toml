@@ -1,0 +1,25 @@
+# The fivesparks-general domain's root docket: what fivesparks-agent owes, and the domain's repositories beneath it.
+# A sibling of solip-obeya under the company root; fivesparks-agent's "what next" is the brief from here.
+[docket]
+id = "xptrxd95k8pk"
+name = "fivesparks-general"
+engine = ">=0.1,<0.2"
+asks = ["docket"]
+docs = []
+branches = { integration = "dev", owner = "main" }
+
+[[children]]
+id = "lgfblhyuo3vq"
+location = "github.com/fivesparks-general/dokit-jim"
+mode = "person"
+
+[[children]]
+id = "bvmzn5c5acp6"
+location = "github.com/fivesparks-general/dokit"
+
+[[children]]
+id = "8kg7v167djyu"
+name = "andon"
+location = "github.com/fivesparks-general/andon"
+mode = "git-only"
+branches = { integration = "dev", owner = "main" }
