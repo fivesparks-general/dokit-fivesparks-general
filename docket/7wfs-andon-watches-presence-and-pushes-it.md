@@ -1,7 +1,8 @@
 +++
 kind = "step"
 created = 2026-11-11T20:54:01Z
-state = "open"
+state = "closed"
+resolution = "done"
 priority = "normal"
 +++
 # andon serves presence on request
